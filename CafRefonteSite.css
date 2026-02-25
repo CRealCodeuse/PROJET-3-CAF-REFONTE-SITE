@@ -1772,42 +1772,15 @@ header > div:first-child {
     INFORMATIONS GENERALES
     ===================================*/
 
-.BoutonAccessibilite, 
-.BoutonMentionsLegales, 
-.BoutonDonneesPerso, 
-.BoutonSecurite, 
-.BoutonCSIRT, 
-.BoutonFAQ {
-    font-family: 'Oswald', sans-serif;
-    font-size: 18px;
-    border: none;
-    background-color: #141455;
-    color: white;
-}
+/*=====================LIENS FOOTER===============*/
 
-.BoutonAccessibilite:hover, 
-.BoutonMentionsLegales:hover, 
-.BoutonDonneesPerso:hover, 
-.BoutonSecurite:hover, 
-.BoutonCSIRT:hover, 
-.BoutonFAQ:hover {
-    border: 2px solid white;
-    padding:5px;
-    background-color: #b9b9dd;
-    color: black;
-    width: fit-content;
-    cursor: pointer;
-}
-
-/*=====================AUTRES SITES===============*/
-
-.LiensAutresSites {
+.LiensFooter, .LiensAutresSites {
     text-decoration: none;
     color: white;
     font-size: 18px;
 }
 
-.LiensAutresSites:hover {
+.LiensFooter:hover, .LiensAutresSites:hover {
     border: 2px solid white;
     padding:5px;
     background-color: #b9b9dd;
