@@ -475,7 +475,8 @@ header > div:first-child {
 
 .BodyPageFooter {
     padding: 5px 15px 5px 15px; /* Espace autour de la div */
-    background-color: lightpink; /* Couleur de fond de la div */
+    background-color:#141455; /* Couleur de fond de la div */
+    color: white;
     margin: 30px 180px 0 180px; /* Marge autour de la div */
     max-width: calc(100% - 40px); /* S'adapte à la largeur de l'écran */
     border: none; /* Pas de bordure */
@@ -484,7 +485,7 @@ header > div:first-child {
     box-sizing: border-box; /* Inclut padding et border dans la width */
     display: flex;
     justify-content: space-around;
-    height: 150px;
+    height: 100px;
     align-items: center;
 }
 
@@ -511,6 +512,21 @@ header > div:first-child {
         margin: 15px; /* Réduit la marge sur mobile */
         padding: 10px; /* Réduit le padding sur mobile */
     }
+}
+
+.Texte {
+    background-color: whitesmoke;
+    padding: 15px;
+}
+
+.Lien {
+    background:none;
+    border: none;
+    color: #141455;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
 }
 
 /*===================================
