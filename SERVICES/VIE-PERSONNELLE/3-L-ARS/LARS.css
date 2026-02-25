@@ -622,7 +622,7 @@ header > div:first-child {
     align-items: center;
 }
 
-.divAllocationsFamiliales {
+.divAllocationRentreScolaire {
     margin: 30px 180px 0 180px; /* Marge autour de la div */ /* Marge autour de la div */
     max-width: calc(100% - 40px); /* S'adapte à la largeur de l'écran */
     padding: 10px 20px 10px 20px; /* Espace interne */
@@ -641,7 +641,7 @@ header > div:first-child {
         flex-direction: column; /* Empile les éléments verticalement */
     }
 
-    .divAllocationsFamiliales {
+    .divAllocationRentreScolaire {
         margin: 15px; /* Réduit la marge sur mobile */
         padding: 10px; /* Réduit le padding sur mobile */
     }
@@ -677,7 +677,7 @@ header > div:first-child {
     background-color:#e3e3f1;
 }
 
-.Capture1AF, .Capture2AF {
+.Capture1ARS, .Capture2ARS {
     background-color: whitesmoke;
     padding: 15px;
     border: 2px solid black;
