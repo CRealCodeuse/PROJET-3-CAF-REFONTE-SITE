@@ -642,7 +642,7 @@ header > div:first-child {
     color: white; /* Couleur du texte */
     border: none; /* Pas de bordure */
     padding: 10px; /* Espace interne */
-    width:65%;
+    width:90%;
     text-align: center;
     margin: 0 auto;
 }
