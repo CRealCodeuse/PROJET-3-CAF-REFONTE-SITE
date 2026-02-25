@@ -522,6 +522,10 @@ header > div:first-child {
     border: 2px solid black;
 }
 
+.IntegrationVideo {
+    margin:15px;
+}
+
 .Texte {
     background-color: whitesmoke;
     padding: 15px;
@@ -549,7 +553,7 @@ header > div:first-child {
     background-color:#e3e3f1;
 }
 
-.Capture1ARS, .Capture2ARS {
+.Capture1CF, .Capture2CF {
     background-color: whitesmoke;
     padding: 15px;
     border: 2px solid black;
