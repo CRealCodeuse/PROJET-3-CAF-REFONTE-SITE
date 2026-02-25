@@ -488,7 +488,7 @@ header > div:first-child {
     align-items: center;
 }
 
-.divAllocationRentreScolaire {
+.divViePersonnelle {
     margin: 30px 180px 0 180px; /* Marge autour de la div */ /* Marge autour de la div */
     max-width: calc(100% - 40px); /* S'adapte à la largeur de l'écran */
     padding: 10px 20px 10px 20px; /* Espace interne */
@@ -507,7 +507,7 @@ header > div:first-child {
         flex-direction: column; /* Empile les éléments verticalement */
     }
 
-    .divAllocationRentreScolaire {
+    .divViePersonnelle {
         margin: 15px; /* Réduit la marge sur mobile */
         padding: 10px; /* Réduit le padding sur mobile */
     }
