@@ -546,6 +546,13 @@ button:hover, .Lien:hover{
     background-color: #aaa;
 }
 
+.Adresse {
+    background-color: whitesmoke;
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+}
+
 /*===================================
   FOOTER
 ===================================*/
