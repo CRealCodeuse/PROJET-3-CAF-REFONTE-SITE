@@ -653,12 +653,7 @@ button:hover, .Lien:hover{
     INFORMATIONS GENERALES
     ===================================*/
 
-.BoutonAccessibilite, 
-.BoutonMentionsLegales, 
-.BoutonDonneesPerso, 
-.BoutonSecurite, 
-.BoutonCSIRT, 
-.BoutonFAQ {
+.Liensfooter{
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
     border: none;
@@ -666,12 +661,7 @@ button:hover, .Lien:hover{
     color: white;
 }
 
-.BoutonAccessibilite:hover, 
-.BoutonMentionsLegales:hover, 
-.BoutonDonneesPerso:hover, 
-.BoutonSecurite:hover, 
-.BoutonCSIRT:hover, 
-.BoutonFAQ:hover {
+.LiensFooter:hover {
     border: 2px solid white;
     padding:5px;
     background-color: #b9b9dd;
