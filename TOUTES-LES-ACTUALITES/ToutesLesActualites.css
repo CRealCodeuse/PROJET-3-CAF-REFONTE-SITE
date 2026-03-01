@@ -695,14 +695,21 @@ header > div:first-child {
     padding: 15px;
     border-radius: 10px;
     margin: 30px;
+    text-align: center;
 }
 
 @media (max-width:480px) {
-    .TitrePopUpGauche1 {
+    .TitrePopUp {
         margin: 30px 5px 5px 5px;
         padding: 15px;
         font-size: 20px;
     }
+}
+
+.ReponseActualite {
+    margin: 15px;
+    padding: 15px;
+    background-color: whitesmoke;
 }
 
 .FermerPopUpGauche1 {
@@ -736,6 +743,11 @@ header > div:first-child {
 .LienActu {
     color: black;
     text-decoration: none;
+}
+
+.LienActu:hover {
+    color: #141455;
+    text-decoration: underline;
 }
 
 /*===================================
