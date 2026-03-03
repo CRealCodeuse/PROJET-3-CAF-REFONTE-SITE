@@ -2,19 +2,17 @@
   GENERAL
 ===================================*/
 
-body { 
+*{
     font-family: 'Poppins', sans-serif; /* Police et style d'écriture */
+}
+
+body { 
     background-color: rgb(213, 220, 226); /* Couleur de fond de la page */
 }
 
 a {
     text-decoration: none; /* Supprime le soulignement des liens */
-    font-family: 'Poppins', sans-serif; /* Police des liens */
     color: black; /* Couleur des liens */
-}
-
-button {
-    font-family: 'Poppins', sans-serif; /* Police des boutons */
 }
 
 @media (max-width:480px) {
@@ -44,7 +42,6 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-    font-family: 'Oswald', sans-serif;
     background-color: #141455;
     border: white 2px solid;
     border-radius: 10px;
@@ -107,7 +104,6 @@ header > div:first-child {
 
 .Accueil2 { 
     color: white;
-    font-family: 'Oswald', sans-serif;
     text-decoration: none;
     font-size: 32px;
     margin-left: 0; /* Collé au logo */
@@ -300,7 +296,7 @@ header > div:first-child {
     border: none;
     background-color: #141455;
     color: white;
-    font-family: 'Poppins', sans-serif;
+    
     font-size: 18px;
     cursor: pointer;
 }
@@ -464,7 +460,7 @@ header > div:first-child {
     position: relative;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
     overflow-y: auto; /* Permet le scroll sur tout l'écran */
-    font-family: 'Poppins', sans-serif;
+    
     
 }
 
@@ -574,7 +570,6 @@ header > div:first-child {
     display: flex;
     margin: auto;
     padding: 10px;
-    font-family: "Oswald", sans-serif;
     font-size: 18px;
     color: #e3e3f1;
     background-color: #141455;
@@ -766,7 +761,6 @@ header > div:first-child {
 }
 
 .Information1, .Information2, .Information3, .Information4 {
-    font-family: 'Oswald', sans-serif; /* Police */
     font-size: 15px; /* Taille de la police */
     margin: 10px 5px 10px 5px; /* Marges autour de l'information */
     width: 95%; /* Prend toute la largeur disponible */
@@ -827,7 +821,6 @@ header > div:first-child {
     color: white;
     border: none;
     border-radius: 10px;
-    font-family: 'Oswald', sans-serif;
     font-size: 20px;
     display: block; /* Affichage en bloc */
     margin: 0 auto 15px; /* Centre le bouton avec marge en haut */
@@ -1238,7 +1231,6 @@ header > div:first-child {
 }
 
 .ButtonsActions {
-    font-family: 'Oswald', sans-serif;
     padding: 15px 10px; /* Espace interne du bouton */
     width: 280px; /* Largeur du bouton */
     max-width: 100%; /* S'adapte à la largeur disponible */
@@ -1417,8 +1409,7 @@ header > div:first-child {
     }
 }
 
-.DecouvrirMag {
-    font-family: "Oswald", sans-serif; /* Police */
+.DecouvrirMag { /* Police */
     font-weight: 500; /* Poids de la police */
     font-size: 20px; /* Taille de la police */
     padding: 15px; /* Espace interne */
@@ -1532,8 +1523,7 @@ header > div:first-child {
     }
 }
 
-.BoutonQuestions {
-    font-family: "Oswald", sans-serif; /* Police */
+.BoutonQuestions { /* Police */
     font-weight: 500; /* Poids de la police */
     font-size: 20px; /* Taille de la police */
     padding: 10px; /* Espace interne */
@@ -1616,7 +1606,6 @@ header > div:first-child {
     color: white;
     padding: 15px;
     border-radius: 10px;
-    font-family: 'Oswald', sans-serif;
     font-size: 20px;
     display: flex;
     justify-content: center;
@@ -1695,7 +1684,6 @@ header > div:first-child {
         font-size: 18px;
         display: block;
         margin: 0 auto;
-    
     }
 }
 
@@ -1789,7 +1777,6 @@ header > div:first-child {
     align-items: center;
     justify-content: center;
     font-size: 18px;
-    font-family: 'Poppins', sans-serif;
     transition: background-color 0.3s ease; /* Transition douce */
     margin-left: 5px;
 }
@@ -1804,7 +1791,6 @@ header > div:first-child {
     ===================================*/
 
 .Liensfooter{
-    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     border: none;
     background-color: #141455;
@@ -1823,7 +1809,6 @@ header > div:first-child {
     text-decoration: none;
     color: white;
     font-size: 16px;
-    font-family: "Poppins", sans-serif;
 }
 
 .LiensAutresSites:hover {
