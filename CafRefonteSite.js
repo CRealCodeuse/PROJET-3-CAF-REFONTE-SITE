@@ -26,20 +26,20 @@ if (Professionnels && LiensProfessionnels) {
     });
 }
 
-/****************FORMULAIRE DE CONTACT****************/
+/****************FORMULAIRE DE CONNEXION****************/
 
-//VARIABLES DES BOUTONS DU FORMULAIRE DE CONTACT
+//VARIABLES DES BOUTONS DU FORMULAIRE DE CONNEXION
 const Connexion = document.querySelector('.BoutonConnexion');
 const PopUp = document.querySelector('.PopUpConnexion');
 const Fermer = document.querySelector('.FermerConnexion');
 const FormulaireConnexion = document.querySelector('.FormulaireConnexion');
 
-//OUVRIR POP UP DE CONTACT
+//OUVRIR POP UP DE CONNEXION
 Connexion.addEventListener('click', () => {
     PopUp.style.display = 'block';   
 });
 
-//FERMER POP UP DE CONTACT
+//FERMER POP UP DE CONNEXION
 Fermer.addEventListener('click', () => {
    PopUp.style.display = 'none'; 
 });
@@ -51,17 +51,19 @@ window.addEventListener('click', (e) => {
     }
 });
 
-//VARIABLES DES BOUTONS DU FORMULAIRE DE CONTACT
+/********************POP UP CONGE NAISSANCE*********************/
+
+//VARIABLES DES BOUTONS DU FORMULAIRE DE CONGE NAISSANCE
 const CongeNaissance = document.querySelector('.Information1');
 const PopUpCongeNaissance = document.querySelector('.PopUpCongeNaissance');
 const FermerCongeNaissance = document.querySelector('.FermerCongeNaissance');
 
-//OUVRIR POP UP DE CONTACT
+//OUVRIR POP UP DE CONGE NAISSANCE
 CongeNaissance.addEventListener('click', () => {
     PopUpCongeNaissance.style.display = 'block';   
 });
 
-//FERMER POP UP DE CONTACT
+//FERMER POP UP DE CONGE NAISSANCE
 FermerCongeNaissance.addEventListener('click', () => {
    PopUpCongeNaissance.style.display = 'none'; 
 });
@@ -79,12 +81,12 @@ const Aides2026 = document.querySelector('.Information2');
 const PopUpAides2026 = document.querySelector('.PopUpAides2026');
 const FermerAides2026 = document.querySelector('.FermerAides2026');
 
-//OUVRIR POP UP DE CONTACT
+//OUVRIR POP UP DE AIDES 2026
 Aides2026.addEventListener('click', () => {
     PopUpAides2026.style.display = 'block';   
 });
 
-//FERMER POP UP DE CONTACT
+//FERMER POP UP DE AIDES 2026
 FermerAides2026.addEventListener('click', () => {
    PopUpAides2026.style.display = 'none'; 
 });
@@ -102,12 +104,12 @@ const PrimeNoel2025 = document.querySelector('.Information3');
 const PopUpPrimeNoel2025 = document.querySelector('.PopUpPrimeNoel2025');
 const FermerPrimeNoel2025 = document.querySelector('.FermerPrimeNoel2025');
 
-//OUVRIR POP UP DE CONTACT
+//OUVRIR POP UP DE PRIME NOEL 2025
 PrimeNoel2025.addEventListener('click', () => {
     PopUpPrimeNoel2025.style.display = 'block';   
 });
 
-//FERMER POP UP DE CONTACT
+//FERMER POP UP DE PRIME NOEL 2025
 FermerPrimeNoel2025.addEventListener('click', () => {
    PopUpPrimeNoel2025.style.display = 'none'; 
 });
@@ -125,12 +127,12 @@ const Cyberattaque = document.querySelector('.Information4');
 const PopUpCyberattaque = document.querySelector('.PopUpCyberattaque');
 const FermerCyberattaque = document.querySelector('.FermerCyberattaque');
 
-//OUVRIR POP UP DE CONTACT
+//OUVRIR POP UP DE CYBERATTAQUE
 Cyberattaque.addEventListener('click', () => {
     PopUpCyberattaque.style.display = 'block';   
 });
 
-//FERMER POP UP DE CONTACT
+//FERMER POP UP DE CYBERATTAQUE
 FermerCyberattaque.addEventListener('click', () => {
    PopUpCyberattaque.style.display = 'none'; 
 });
