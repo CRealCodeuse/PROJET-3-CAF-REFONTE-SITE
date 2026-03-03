@@ -1,0 +1,393 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAF - Sécurité et Prévention</title>
+
+    <link rel="icon" href="/Images/Logo - CAF.jpg" type="image/x-icon">
+
+    <link rel="stylesheet" href="SecuritePrevention.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+
+<header>
+
+        <div>
+    
+        <a href="/CafRefonteSite.html">
+            <img class="Accueil1" src="/Images/Logo - CAF.jpg" alt="Logo Caf">
+        </a>
+            
+        <a class="Accueil2" href="/CafRefonteSite.html">
+            caf.fr
+        </a>
+
+        <button class="BoutonMalvoyant">
+            <img class="ImgMalvoyant" src="/Images/Image - Malvoyant.png" alt="closed-eye"/>
+        </button>
+
+        <button class="BoutonRecherche">
+            <img class="ImgRecherche" src="https://img.icons8.com/stickers/100/search.png" alt="search"/>
+        </button>
+
+        <button class="BoutonConnexion">
+            <img class="ImgConnexion" src="/Images/Image - SeConnecter.png" alt="circled-user"/>
+        </button>
+
+    </div>
+
+    <div class="PopUpConnexion">
+
+        <div class="ContenuPopUpConnexion">
+
+            <span class="FermerConnexion">&times;</span>
+
+            
+                                    
+            <form class="FormulaireConnexion">
+
+                <h1 class="TitrePopUpConnexion">BIENVENUE SUR LE PORTAIL DES ALLOCATIONS FAMILIALES</h1>
+
+                <h2 class="FormulaireTitre2Connexion">CONNEXION ALLOCATAIRE</h2>
+
+                <h3 class="FormulaireTitre2Connexion">Avec vos identifiants Caf</h3>
+
+                <p class="FormulaireAttentionConnexion">*Tous les champs sont obligatoires, sauf mention du contraire.</p>
+
+                <label for="NumSecuSociale">Numéro de sécurité sociale :</label>
+                <input type="text" class="NumSecuSociale" name="NumSecuSociale" pattern="[0-9]*" maxlength="13" placeholder="Ex : 1 23 45 67 890 123 45" inputmode="numeric" required>
+            
+
+                <label for="MotDePasse">Mot de passe :</label>
+                <input type="password" class="MotDePasse" name="MotDePasse" minlength="8" maxlength="64" placeholder="***********" required>
+                <br>
+
+                <button class="BoutonSCConnexion">Se connecter</button>
+    
+            </form>
+
+            <h3 class="FormulaireTitre2Connexion">OU avec FranceConnect</h3>
+
+                <button class="BoutonFCConnexion">
+                    <img src="Images/Logo - FranceConnect.png" alt="Image Bouton France Connect" width="200px">
+                </button>
+                <br>
+                
+        </div>
+
+    </div>
+
+</header>
+
+<body>
+
+    <div class="BodyPageFooter">
+        <h1 class="TitrePageFooter">Sécurité et Prévention</h1>
+    </div>
+
+    <div class="divPageFooter">
+
+        <p class="Texte">
+            <strong>Pour votre sécurité, la Caf vous met en garde contre les tentatives d’arnaques par mail, SMS ou téléphone.</strong> <br>
+            <br>
+            Comment les repérer ? Comment s’en protéger ? Comment les signaler ? <br>
+            <br>
+            Suivez nos quelques conseils de vigilance et de bonnes pratiques.
+        </p>
+
+        <h1>J'ADOPTE les bons reflexes !</h1>
+        <h2>10 conseils pour limiter les risques :</h2>
+        
+        <p class="Texte">
+            <strong>
+                1. Soyez vigilant face à des mails ou SMS inattendus, leurs liens et leurs pièces jointes.
+            </strong>
+        </p>
+
+        <div class="DivLigneConseils">
+            
+            <div class="divImage">
+                <img class="ImgConseils" src="/Images/Image - Logiciel Malveillant.png" alt="">
+            </div>
+            <div class="divTexte">
+                <p class="Texte">
+                    Restez très prudent en cas de mails ou SMS non sollicités même quand ils semblent provenir de la Caf. 
+                </p>
+            </div>
+            
+        </div>
+
+        <p class="Texte">
+            <strong>
+                2. Contrôlez l'identité de l'expéditeur.
+            </strong>
+        </p>
+        
+        <div class="DivLigneConseils">
+             
+            <div class="divTexte">
+                <p class="Texte">
+                    Vérifiez attentivement l'adresse mail et le nom de l'expéditeur. <br>
+                    Parfois, un seul caractère manquant peut vous alerter. <br>
+                    <br>
+                    Au moindre doute, ne fournissez aucune information <br>
+                    et fermez immédiatement le message. 
+                </p>
+            </div>
+            <div class="divImage">
+                <img class="ImgConseils" src="/Images/Image - Expediteur.png" alt="">
+            </div>
+            
+        </div>
+
+        <p class="Texte">
+            <strong>
+                3. Regardez attentivement les fautes d’orthographe et de grammaire.
+            </strong>
+        </p>
+
+        <div class="DivLigneConseils">
+            
+            <div class="divImage">
+                <img class="ImgConseils" src="/Images/Image - Orthographe.png" alt="">
+            </div>
+            <div class="divtexte">
+                <p class="Texte">
+                    Même si les pirates informatiques font de plus en plus attention, le nombre de fautes d’orthographe et de grammaire est souvent la preuve d’une tentative d’arnaque.
+                </p>
+            </div>
+            
+        </div>
+
+        <p class="Texte">
+            <strong>
+                4. Méfiez-vous des demandes urgentes ou menaçantes.
+            </strong>
+        </p>
+        
+        <div class="DivLigneConseils">
+             
+            <div class="divTexte">
+                <p class="Texte">
+                    Les attaquants utilisent souvent des messages urgents ou menaçants pour vous pousser à agir rapidement sans réfléchir. <br>
+                    <br>
+                    Prenez le temps d'analyser calmement le message.
+                </p>
+            </div>
+            <div class="divImage">
+                <img class="ImgConseils" src="/Images/Image - Menace.png" alt="">
+            </div>
+
+        </div>
+
+        <p class="Texte">
+            <strong>
+                5. Vérifiez que le site est sécurisé avant de saisir des informations personnelles.
+            </strong>
+        </p>
+
+        <div class="DivLigneConseils">
+            
+            <div class="divImage">
+                <img class="ImgConseils" src="/Images/Image - SiteProtege.png" alt="">
+            </div>
+            <div class="divtexte">
+                <p class="Texte">
+                    L'adresse URL doit commencer par "https://" et un cadenas doit être présent dans la barre d'adresse.
+                </p>
+            </div>
+            
+        </div>
+
+        <p class="Texte">
+            <strong>
+                6. Utilisez un mot de passe différent et complexe pour chaque compte en ligne.
+            </strong>
+        </p>
+        
+        <div class="DivLigneConseils">
+             
+            <div class="divTexte">
+                <p class="Texte">
+                    Si un pirate parvient à obtenir votre mot de passe, il peut accéder à tous vos comptes utilisant le même mot de passe.
+                </p>
+            </div>
+            <div class="divImage">
+                <img class="ImgConseils" src="/Images/Image - MotDePasse.png" alt="">
+            </div>
+
+        </div>
+
+        <p class="Texte">
+            <strong>
+                7. Saisissez vos identifiants à chaque connexion.
+            </strong>
+        </p>
+
+        <div class="DivLigneConseils">
+            
+            <div class="divImage">
+                <img class="ImgConseils" src="/Images/Image - Identifiants.png" alt="">
+            </div>
+            <div class="divtexte">
+                <p class="Texte">
+                    Pour vous connecter à l’Espace Mon Compte, vous devez saisir votre numéro de sécurité sociale à 13 chiffres et votre mot de passe sans les enregistrer dans votre navigateur. 
+                </p>
+            </div>
+            
+        </div>
+
+        <p class="Texte">
+            <strong>
+                8. Mettez à jour régulièrement vos logiciels sur votre smartphone et ordinateur.
+            </strong>
+        </p>
+        
+        <div class="DivLigneConseils">
+             
+            <div class="divTexte">
+                <p class="Texte">
+                    Gardez vos logiciels et votre système d'exploitation à jour pour bénéficier des dernières protections contre les menaces.
+                </p>
+            </div>
+            <div class="divImage">
+                <img class="ImgConseils" src="/Images/Image - MiseAJour.png" alt="">
+            </div>
+
+        </div>
+
+        <p class="Texte">
+            <strong>
+                9. Soyez prudent lorsque vous utilisez les réseaux Wi-Fi publics.
+            </strong>
+        </p>
+
+        <div class="DivLigneConseils">
+            
+            <div class="divImage">
+                <img class="ImgConseils" src="/Images/Image - Wifi.png" alt="">
+            </div>
+            <div class="divtexte">
+                <p class="Texte">
+                    Les réseaux Wi-Fi publics (dans les cafés, les gares, les bibliothèques, les hôtels…) ne sont pas toujours sécurisés. <br>
+                    <br>
+                    Évitez de saisir des informations personnelles (identifiants, compte bancaire…) lorsque vous êtes connecté à un réseau Wi-Fi public.
+                </p>
+            </div>
+            
+        </div>
+
+        <p class="Texte">
+            <strong>
+                10. Faites confiance à votre instinct.
+            </strong>
+        </p>
+        
+        <div class="DivLigneConseils">
+             
+            <div class="divTexte">
+                <p class="Texte">
+                    Si quelque chose vous semble suspect, faites confiance à votre instinct et n'hésitez pas à vérifier ou à demander de l'aide.
+                </p>
+            </div>
+            <div class="divImage">
+                <img class="ImgConseils" src="/Images/Image - Instinct.png" alt="">
+            </div>
+
+        </div>
+
+        <h1>JE SIGNALE le message frauduleux</h1>
+
+        <ul class="Texte">Vous pouvez <strong>signaler</strong> un mail ou SMS frauduleux aux services compétents de plusieurs façons : <br>
+            <br>
+            <li>à <a href="https://www.signal-spam.fr/">Signal Spam</a> ou au 33700 pour les SMS, </li>
+            <br>
+            <li>à la Caf dont l’identité est usurpée,</li>
+            <br>
+            <li>sur <a href="https://internet-signalement.gouv.fr/">internet-signalement.gouv.fr</a> pour les sites frauduleux… </li>
+        </ul>
+
+        <p class="Texte">
+
+            Dans tous les cas, gardez les preuves, et en particulier, le message reçu. <br>
+            Pour signaler efficacement une tentative de phishing, il est important de transmettre le plus d’informations possible. <br>
+            <br>
+            Vous devez <strong>déposer plainte</strong> au commissariat ou écrire au procureur de la République du tribunal judiciaire dont vous dépendez. <br>
+            Vous pouvez être accompagné gratuitement par une association de <a class="Lien" href="https://www.france-victimes.fr/">France Victimes</a> au 116 006 (appel et service gratuits). C’est un numéro d’aide aux victimes du ministère de la Justice, ouvert 7 jours sur 7 de 9h à 19h. <br>
+            <br>
+            Vous devez <strong>changer vos mots de passe et faire opposition</strong> sur vos moyens de paiement en fonction des éléments communiqués et de l’arnaque dont vous êtes victime.
+
+        </p>
+
+        <h1>JE CONSULTE régulièrement les exemples d'arnaques </h1>
+
+        <p class="Texte">
+            Retrouvez les arnaques ou tentatives d'arnaques en cours constatées à la Caf. 
+        </p>
+
+        <h2 class="TitreArnaque">
+            <strong>Une prime énergie versée par la Caf</strong> <br>
+            Juillet 2024 
+        </h2>
+
+        <img class="ImageArnaque" src="/LIENS-FOOTER/SECU-PREVENTION/Images/Faux-mail-prime-energie.png" alt="">
+
+        <h2 class="TitreArnaque">
+            <strong>Une prime inflation de 387 €</strong> <br>
+            Février 2022 
+        </h2>
+
+        <img class="ImageArnaque" src="/LIENS-FOOTER/SECU-PREVENTION/Images/Prime-inflation_arnaque_022022.png" alt="">
+
+
+
+    </div>
+
+</body>
+
+<footer>
+
+    <div class="divFooter">
+
+        <div class="ReseauxSociaux">
+            <h3 class="TitreReseaux">Retrouvez-nous sur les réseaux sociaux :</h3>
+            <a class="Facebook" href="https://www.facebook.com/cafallocationsfamiliales/">
+                    <img src="/Images/Logo - Facebook.png" alt="Logo Facebook">
+            </a>   
+            <a class="X" href="https://x.com/cnaf_actus">
+                <img src="/Images/Logo - X.png" alt="Logo X">
+            </a>
+            <button class="NousContacter">Ou directement ici</button>
+        </div>
+
+        <div class="divGeneral">
+            <h3>Informations :</h3>
+            <ul>
+                <li><a class="LiensFooter" href="/LIENS-FOOTER/ACCESSIBILITE/Accessibilite.html">Accessibilité : partiellement conforme</a></li>
+                <li><a class="LiensFooter" href="/LIENS-FOOTER/MENTIONS-LEGALES/MentionsLegales.html">Mentions légales</a></li>
+                <li><a class="LiensFooter" href="/LIENS-FOOTER/DONNEES-PERSO/DonneesPersonnelles.html">Données personnelles</a></li>
+                <li><a class="LiensFooter" href="/LIENS-FOOTER/SECU-PREVENTION/SecuritePrevention.html">Sécurité et Prévention</a></li>
+                <li><a class="LiensFooter" href="/LIENS-FOOTER/CSIRT/CSIRT.html">CSIRT</a></li>
+                <li><a class="LiensFooter" href="/LIENS-FOOTER/FAQ/FAQ.html">Foire aux questions</a></li>
+            </ul>
+        </div>
+
+        <div class="divLiensAutresSites">
+            <h3>Autres sites :</h3>
+            <ul>
+                <li><a class="LiensAutresSites" href="https://www.service-public.gouv.fr">Service-public.fr</a></li>
+                <li><a class="LiensAutresSites" href="https://monenfant.fr">Monenfant.fr</a></li>
+                <li><a class="LiensAutresSites" href="https://pension-alimentaire.caf.fr/usagers">Pension-alimentaire.caf.fr</a></li>
+                <li><a class="LiensAutresSites" href="https://data.caf.fr/pages/accueil-ods/">Data.caf.fr</a></li>
+                <li><a class="LiensAutresSites" href="https://vacaf.org">Vacaf.org</a></li>
+                <li><a class="LiensAutresSites" href="https://lacafavotreecoute.fr/#/">La Caf à votre écoute</a></li>
+            </ul>
+        </div>
+    </div>
+
+</footer>
+
+</html>
