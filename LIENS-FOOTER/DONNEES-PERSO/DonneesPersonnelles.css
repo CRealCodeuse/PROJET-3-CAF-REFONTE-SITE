@@ -656,17 +656,14 @@ button:hover {
     ===================================*/
 
 .Liensfooter{
-    font-size: 18px;
+    font-size: 16px;
     border: none;
     background-color: #141455;
     color: white;
 }
 
 .LiensFooter:hover {
-    border: 2px solid white;
-    padding:5px;
-    background-color: #b9b9dd;
-    color: black;
+    text-decoration: underline;
     width: fit-content;
     cursor: pointer;
 }
@@ -676,13 +673,11 @@ button:hover {
 .LiensAutresSites {
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .LiensAutresSites:hover {
-    border: 2px solid white;
-    padding:5px;
-    background-color: #b9b9dd;
-    color: black;
+    text-decoration: underline;
+    width: fit-content;
     cursor: pointer;
 }
