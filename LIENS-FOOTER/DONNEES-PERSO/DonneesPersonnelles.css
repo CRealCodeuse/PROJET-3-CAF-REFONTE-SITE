@@ -280,10 +280,6 @@ header > div:first-child {
   POP UP CONNEXION
 ===================================*/
 
-    /*===================================
-    POP UP CONNEXION
-    ===================================*/
-
 .PopUpConnexion {
     display: none;
     position: fixed;
@@ -410,7 +406,6 @@ header > div:first-child {
     ===================================*/
 
 .FormulaireConnexion label {
-    font-family: "Oswald";
     display: block;
     margin-top: 15px;
     margin-bottom: 10px;

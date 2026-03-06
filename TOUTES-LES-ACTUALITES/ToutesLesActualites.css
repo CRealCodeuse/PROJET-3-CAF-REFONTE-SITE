@@ -2,8 +2,11 @@
   GENERAL
 ===================================*/
 
+*{
+    font-family: "Poppins", sans-serif; /* Police et style d'écriture */
+}
+
 body { 
-    font-family: 'Oswald', sans-serif; /* Police et style d'écriture */
     background-color: rgb(213, 220, 226); /* Couleur de fond de la page */
 }
 
@@ -38,7 +41,6 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-    font-family: 'Oswald', sans-serif;
     background-color: #141455;
     border: white 2px solid;
     border-radius: 10px;
@@ -97,7 +99,6 @@ header > div:first-child {
 
 .Accueil2 { 
     color: white;
-    font-family: 'Oswald', sans-serif;
     text-decoration: none;
     font-size: 32px;
     margin-left: 0; /* Collé au logo */
@@ -168,7 +169,6 @@ header > div:first-child {
 
 .Accueil2 { 
     color: white;
-    font-family: 'Oswald', sans-serif;
     text-decoration: none;
     font-size: 32px;
     margin-left: 0; /* Collé au logo */
@@ -335,18 +335,17 @@ header > div:first-child {
   POP UP CONNEXION
 ===================================*/
 
-/*POP UP CONNEXION*/
-
 .PopUpConnexion {
     display: none;
     position: fixed;
     z-index: 1000;
     left: 0;
-    top: -90;
+    top: 0;
     bottom: 0;
     width: 100%;
-    height: fit-content;
+    height: 100%;
     background-color: #141455;
+    overflow-y: auto; /* Permet le scroll sur tout l'écran */
 }
 
 @media (max-width:769px){
@@ -363,17 +362,21 @@ header > div:first-child {
         justify-content: center;
     }
 }
-/*CONTENU POP UP*/
+
+    /*===================================
+    CONTENU POP UP
+    ===================================*/
 
 .ContenuPopUpConnexion {
     background-color:#e3e3f1;
-    margin: 10% auto;
+    margin: 1% auto;
     padding: 30px;
     border-radius: 10px;
     width: 90%;
     max-width: 500px;
     position: relative;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    overflow-y: auto; /* Permet le scroll sur tout l'écran */
     
 }
 
@@ -391,7 +394,9 @@ header > div:first-child {
     }
 }
 
-/*TITRE POP UP*/
+    /*===================================
+    TITRE POP UP
+    ===================================*/
 
 .TitrePopUpConnexion {
     background-color: #141455;
@@ -409,12 +414,14 @@ header > div:first-child {
     }
 }
 
-/*ICONE FERMER POP UP*/
+    /*===================================
+    ICONE FERMER POP UP
+    ===================================*/
 
 .FermerConnexion {
     position: absolute;
-    right: 35px;
-    top: 15px;
+    right: 25px;
+    top: 5px;
     font-size: 30px;
     font-weight: bold;
     color: #aaa;
@@ -433,26 +440,33 @@ header > div:first-child {
     color:#000;
 }
 
-/*POP UP TITRE CONNEXION ALLOCATAIRE + IDENTIFIANTS CAF*/
+    /*===================================================
+    POP UP TITRE CONNEXION ALLOCATAIRE + IDENTIFIANTS CAF
+    ====================================================*/
 
 .FormulaireTitre2Connexion {
     color: #141455;
 }
-
-/*POP UP MOT CHAMPS REQUIS*/
+    /*===================================
+    POP UP MOT CHAMPS REQUIS
+    ===================================*/
 
 .FormulaireAttentionConnexion {
     color: red;
+    text-align: center;
 }
 
-/*POP UP FORMULAIRE CONNEXION*/
+    /*===================================
+    POP UP FORMULAIRE CONNEXION
+    ===================================*/
 
 .FormulaireConnexion label {
-    font-family: "Oswald";
     display: block;
     margin-top: 15px;
+    margin-bottom: 10px;
     font-size: 18px;
     color: #141455;
+    text-align: center;
 }
 
 .FormulaireConnexion input {
@@ -460,18 +474,18 @@ header > div:first-child {
     width: 200px;
     background-color: whitesmoke;
     border: 2px solid #141455;
-    font-family: "Oswald", sans-serif;
     font-size: 18px;
     padding: 15px;
     text-align: center;
+    display: block;
+    margin: auto;
 }
 
 .BoutonSCConnexion {
     margin-top: 25px;
     display: flex;
-    margin-left: auto;
+    margin: auto;
     padding: 10px;
-    font-family: "Oswald", sans-serif;
     font-size: 18px;
     color: #e3e3f1;
     background-color: #141455;
@@ -486,11 +500,13 @@ header > div:first-child {
     cursor: pointer;
 }
 
-/*POP UP CONNEXION BOUTON FRANCE CONNECT*/
+    /*===================================
+    POP UP CONNEXION BOUTON FRANCE CONNECT
+    ===================================*/
 
 .BoutonFCConnexion {
     display: flex;
-    margin-left: auto;
+    margin: auto;
     border:none;
     background-color: #e3e3f1;
     transition: background-color 0.3s ease; /* Transition douce */
@@ -616,7 +632,6 @@ header > div:first-child {
     color: white;
     padding: 15px;
     border-radius: 10px;
-    font-family: 'Oswald', sans-serif;
     font-size: 20px;
     display: block;
     margin: 0 auto;
@@ -780,7 +795,9 @@ header > div:first-child {
     }
 }
 
-/*CONTACT - RESEAUX SOCIAUX*/
+    /*===================================
+    CONTACT - RESEAUX SOCIAUX
+    ===================================*/
 
 .ReseauxSociaux {
     display: flex;
@@ -802,7 +819,6 @@ header > div:first-child {
 }
 
 .Facebook:hover {
-    border: 3px solid black;
     background-color: #b9b9dd;
 }
 
@@ -817,7 +833,6 @@ header > div:first-child {
 }
 
 .X:hover {
-    border: 3px solid black;
     background-color: #b9b9dd;
 }
 
@@ -831,59 +846,43 @@ header > div:first-child {
     align-items: center;
     justify-content: center;
     font-size: 18px;
-    font-family: 'Oswald', sans-serif;
     transition: background-color 0.3s ease; /* Transition douce */
     margin-left: 5px;
 }
 
 .NousContacter:hover {
-    border: 3px solid black;
     background-color: #b9b9dd;
     color: #141455;
 }
 
-/*INFORMATIONS GENERALES*/
+    /*===================================
+    INFORMATIONS GENERALES
+    ===================================*/
 
-.BoutonAccessibilite, 
-.BoutonMentionsLegales, 
-.BoutonDonneesPerso, 
-.BoutonSecurite, 
-.BoutonCSIRT, 
-.BoutonFAQ {
-    font-family: 'Oswald', sans-serif;
-    font-size: 18px;
+.Liensfooter{
+    font-size: 16px;
     border: none;
     background-color: #141455;
     color: white;
 }
 
-.BoutonAccessibilite:hover, 
-.BoutonMentionsLegales:hover, 
-.BoutonDonneesPerso:hover, 
-.BoutonSecurite:hover, 
-.BoutonCSIRT:hover, 
-.BoutonFAQ:hover {
-    border: 2px solid white;
-    padding:5px;
-    background-color: #b9b9dd;
-    color: black;
+.LiensFooter:hover {
+    text-decoration: underline;
     width: fit-content;
     cursor: pointer;
 }
 
-/*AUTRES SITES*/
+/*=====================AUTRES SITES===============*/
 
 .LiensAutresSites {
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .LiensAutresSites:hover {
-    border: 2px solid white;
-    padding:5px;
-    background-color: #b9b9dd;
-    color: black;
+    text-decoration: underline;
+    width: fit-content;
     cursor: pointer;
 }
 
