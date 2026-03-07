@@ -529,6 +529,12 @@ header > div:first-child {
     padding: 15px;
 }
 
+.TexteAllocataire {
+    background-color: #b9b9dd;
+    padding: 20px;
+    border: 2px solid #141455;
+}
+
 .ConditionsGenerales, .EnfantsACharge, .Ressources, .TelechargerDemande, .Lien {
     background:none;
     border: none;
