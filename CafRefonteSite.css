@@ -12,7 +12,8 @@ body {
 
 a {
     text-decoration: none; /* Supprime le soulignement des liens */
-    color: black; /* Couleur des liens */
+    color: #141455; /* Couleur des liens */
+    text-decoration: underline;
 }
 
 @media (max-width:480px) {
