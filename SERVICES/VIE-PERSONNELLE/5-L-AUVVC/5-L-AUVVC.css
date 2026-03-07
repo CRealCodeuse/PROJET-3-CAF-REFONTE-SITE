@@ -2,8 +2,11 @@
   GENERAL
 ===================================*/
 
+*{
+    font-family: "Poppins", sans-serif;
+}
+
 body { 
-    font-family: 'Oswald', sans-serif; /* Police et style d'écriture */
     background-color: rgb(213, 220, 226); /* Couleur de fond de la page */
 }
 
@@ -39,7 +42,6 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-    font-family: 'Oswald', sans-serif;
     background-color: #141455;
     border: white 2px solid;
     border-radius: 10px;
@@ -56,7 +58,7 @@ header {
 header > div:first-child {
     display: flex;
     align-items: center;
-    justify-content: space-between ;
+    justify-content: space-between;
 }
 
 @media (max-width: 768px) {
@@ -102,7 +104,6 @@ header > div:first-child {
 
 .Accueil2 { 
     color: white;
-    font-family: 'Oswald', sans-serif;
     text-decoration: none;
     font-size: 32px;
     margin-left: 0; /* Collé au logo */
@@ -409,7 +410,6 @@ header > div:first-child {
     ===================================*/
 
 .FormulaireConnexion label {
-    font-family: "Oswald";
     display: block;
     margin-top: 15px;
     margin-bottom: 10px;
@@ -423,7 +423,6 @@ header > div:first-child {
     width: 200px;
     background-color: whitesmoke;
     border: 2px solid #141455;
-    font-family: "Oswald", sans-serif;
     font-size: 18px;
     padding: 15px;
     text-align: center;
@@ -436,7 +435,6 @@ header > div:first-child {
     display: flex;
     margin: auto;
     padding: 10px;
-    font-family: "Oswald", sans-serif;
     font-size: 18px;
     color: #e3e3f1;
     background-color: #141455;
@@ -537,17 +535,14 @@ header > div:first-child {
     background:none;
     border: none;
     color: #141455;
-    font-family: "Oswald", sans-serif;
-    font-size: 18px;
     margin: 0;
     padding: 0;
 }
 
 .ConditionsGenerales:hover, .EnfantsACharge:hover, .Ressources:hover, .TelechargerDemande:hover, .Lien:hover {
-    color: #000;
+    color: #141455;
     cursor: pointer;
-    background-color:#e3e3f1;
-}
+    text-decoration: underline;}
 
 .Capture1ARS, .Capture2ARS {
     background-color: whitesmoke;
@@ -613,6 +608,10 @@ header > div:first-child {
   FOOTER
 ===================================*/
 
+/*===================================
+  FOOTER
+===================================*/
+
     /*===================================
     DIV FOOTER
     ===================================*/
@@ -665,7 +664,6 @@ header > div:first-child {
 }
 
 .Facebook:hover {
-    border: 3px solid black;
     background-color: #b9b9dd;
 }
 
@@ -680,7 +678,6 @@ header > div:first-child {
 }
 
 .X:hover {
-    border: 3px solid black;
     background-color: #b9b9dd;
 }
 
@@ -694,13 +691,11 @@ header > div:first-child {
     align-items: center;
     justify-content: center;
     font-size: 18px;
-    font-family: 'Oswald', sans-serif;
     transition: background-color 0.3s ease; /* Transition douce */
     margin-left: 5px;
 }
 
 .NousContacter:hover {
-    border: 3px solid black;
     background-color: #b9b9dd;
     color: #141455;
 }
@@ -709,29 +704,15 @@ header > div:first-child {
     INFORMATIONS GENERALES
     ===================================*/
 
-.BoutonAccessibilite, 
-.BoutonMentionsLegales, 
-.BoutonDonneesPerso, 
-.BoutonSecurite, 
-.BoutonCSIRT, 
-.BoutonFAQ {
-    font-family: 'Oswald', sans-serif;
-    font-size: 18px;
+.Liensfooter{
+    font-size: 16px;
     border: none;
     background-color: #141455;
     color: white;
 }
 
-.BoutonAccessibilite:hover, 
-.BoutonMentionsLegales:hover, 
-.BoutonDonneesPerso:hover, 
-.BoutonSecurite:hover, 
-.BoutonCSIRT:hover, 
-.BoutonFAQ:hover {
-    border: 2px solid white;
-    padding:5px;
-    background-color: #b9b9dd;
-    color: black;
+.LiensFooter:hover {
+    text-decoration: underline;
     width: fit-content;
     cursor: pointer;
 }
@@ -741,13 +722,11 @@ header > div:first-child {
 .LiensAutresSites {
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .LiensAutresSites:hover {
-    border: 2px solid white;
-    padding:5px;
-    background-color: #b9b9dd;
-    color: black;
+    text-decoration: underline;
+    width: fit-content;
     cursor: pointer;
 }
