@@ -12,14 +12,14 @@ body {
 
 a {
     text-decoration: none; /* Supprime le soulignement des liens */
-    color: black; /* Couleur des liens */
+    color: #141455; /* Couleur des liens */
 }
 
 @media (max-width:480px) {
 
     a {
         text-decoration: none;
-        color:black
+        color:#141455
     }
 
     .InformationsGrid .Information {
@@ -410,7 +410,6 @@ header > div:first-child {
     ===================================*/
 
 .FormulaireConnexion label {
-    font-family: "Oswald";
     display: block;
     margin-top: 15px;
     margin-bottom: 10px;
@@ -522,8 +521,7 @@ header > div:first-child {
 .Lien {
     background:none;
     border: none;
-    color: #141455;
-    font-size: 18px;
+    color: #141457;
     margin: 0;
     padding: 0;
 }
