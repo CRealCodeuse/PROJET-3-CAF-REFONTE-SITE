@@ -2,8 +2,11 @@
   GENERAL
 ===================================*/
 
+*{
+    font-family: "Poppins", sans-serif;
+}
+
 body { 
-    font-family: 'Oswald', sans-serif; /* Police et style d'écriture */
     background-color: rgb(213, 220, 226); /* Couleur de fond de la page */
 }
 
@@ -39,7 +42,6 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-    font-family: 'Oswald', sans-serif;
     background-color: #141455;
     border: white 2px solid;
     border-radius: 10px;
@@ -102,7 +104,6 @@ header > div:first-child {
 
 .Accueil2 { 
     color: white;
-    font-family: 'Oswald', sans-serif;
     text-decoration: none;
     font-size: 32px;
     margin-left: 0; /* Collé au logo */
@@ -409,7 +410,6 @@ header > div:first-child {
     ===================================*/
 
 .FormulaireConnexion label {
-    font-family: "Oswald";
     display: block;
     margin-top: 15px;
     margin-bottom: 10px;
@@ -423,7 +423,6 @@ header > div:first-child {
     width: 200px;
     background-color: whitesmoke;
     border: 2px solid #141455;
-    font-family: "Oswald", sans-serif;
     font-size: 18px;
     padding: 15px;
     text-align: center;
@@ -436,7 +435,6 @@ header > div:first-child {
     display: flex;
     margin: auto;
     padding: 10px;
-    font-family: "Oswald", sans-serif;
     font-size: 18px;
     color: #e3e3f1;
     background-color: #141455;
@@ -527,20 +525,18 @@ header > div:first-child {
     padding: 15px;
 }
 
-.ConditionsGenerales, .EnfantsACharge, .Ressources, .TelechargerDemande, .Lien {
+.Lien {
     background:none;
     border: none;
     color: #141455;
-    font-family: "Oswald", sans-serif;
     font-size: 18px;
     margin: 0;
     padding: 0;
 }
 
-.ConditionsGenerales:hover, .EnfantsACharge:hover, .Ressources:hover, .TelechargerDemande:hover, .Lien:hover {
-    color: #000;
+.Lien:hover {
     cursor: pointer;
-    background-color:#e3e3f1;
+    text-decoration: underline;
 }
 
 .Capture1AF, .Capture2AF {
@@ -557,7 +553,7 @@ header > div:first-child {
   QUESTIONS
 ===================================*/
 
-.FaqQuestionAdoption, .FaqQuestionNaissance, .FaqQuestionGrossesse, .FaqQuestionPrepare, .FaqQuestionActivite {
+.FaqQuestion1, .FaqQuestion2, .FaqQuestion3, .FaqQuestion4, .FaqQuestion5 {
     background-color: #141455; /* Couleur de fond */
     color:white; /* Couleur du texte */
     padding: 15px; /* Espace interne */
@@ -570,7 +566,7 @@ header > div:first-child {
     font-size: 18px;
 }
 
-.FaqQuestionAdoption:hover, .FaqQuestionNaissance:hover, .FaqQuestionGrossesse:hover, .FaqQuestionPrepare:hover, .FaqQuestionActivite:hover {
+.FaqQuestion1:hover, .FaqQuestion2:hover, .FaqQuestion3:hover, .FaqQuestion4:hover, .FaqQuestion5:hover {
     background-color:#e3e3f1; /* Couleur de fond au survol */
     color: #141455; /* Couleur du texte au survol */
     border: 2px solid #141455;
@@ -578,14 +574,14 @@ header > div:first-child {
 
 /* Responsive : Réduction du padding sur petits écrans */
 @media (max-width: 480px) {
-    .FaqQuestionAdoption, .FaqQuestionNaissance, .FaqQuestionGrossesse, .FaqQuestionPrepare, .FaqQuestionActivite {
+    .FaqQuestion1, .FaqQuestion2, .FaqQuestion3, .FaqQuestion4, .FaqQuestion5  {
         padding: 10px; /* Padding réduit pour mobiles */
         font-size: 18px; /* Taille de police réduite */
         width: fit-content;
     }
 }
 
-.FaqReponseAdoption, .FaqReponseNaissance, .FaqReponseGrossesse, .FaqReponsePrepare, .FaqReponseActivite {
+.FaqReponse1, .FaqReponse2, .FaqReponse3, .FaqReponse4, .FaqReponse5 {
     display: none; /* Cachée par défaut */
     background-color: whitesmoke; /* Couleur de fond */
     border: 3px solid #141455;
@@ -597,11 +593,16 @@ header > div:first-child {
 
 /* Responsive : Réduction du padding sur petits écrans */
 @media (max-width: 480px) {
-    .FaqReponseAdoption, .FaqReponseNaissance, .FaqReponseGrossesse, .FaqReponsePrepare, .FaqReponseActivite {
+    .FaqReponse1:hover, .FaqReponse2:hover, .FaqReponse3:hover, .FaqReponse4:hover, .FaqReponse5:hover  {
         padding: 10px; /* Padding réduit pour mobiles */
         font-size: 18px; /* Taille de police réduite */
     }
 }
+
+
+/*===================================
+  FOOTER
+===================================*/
 
 /*===================================
   FOOTER
@@ -659,7 +660,6 @@ header > div:first-child {
 }
 
 .Facebook:hover {
-    border: 3px solid black;
     background-color: #b9b9dd;
 }
 
@@ -674,7 +674,6 @@ header > div:first-child {
 }
 
 .X:hover {
-    border: 3px solid black;
     background-color: #b9b9dd;
 }
 
@@ -688,13 +687,11 @@ header > div:first-child {
     align-items: center;
     justify-content: center;
     font-size: 18px;
-    font-family: 'Oswald', sans-serif;
     transition: background-color 0.3s ease; /* Transition douce */
     margin-left: 5px;
 }
 
 .NousContacter:hover {
-    border: 3px solid black;
     background-color: #b9b9dd;
     color: #141455;
 }
@@ -703,29 +700,15 @@ header > div:first-child {
     INFORMATIONS GENERALES
     ===================================*/
 
-.BoutonAccessibilite, 
-.BoutonMentionsLegales, 
-.BoutonDonneesPerso, 
-.BoutonSecurite, 
-.BoutonCSIRT, 
-.BoutonFAQ {
-    font-family: 'Oswald', sans-serif;
-    font-size: 18px;
+.Liensfooter{
+    font-size: 16px;
     border: none;
     background-color: #141455;
     color: white;
 }
 
-.BoutonAccessibilite:hover, 
-.BoutonMentionsLegales:hover, 
-.BoutonDonneesPerso:hover, 
-.BoutonSecurite:hover, 
-.BoutonCSIRT:hover, 
-.BoutonFAQ:hover {
-    border: 2px solid white;
-    padding:5px;
-    background-color: #b9b9dd;
-    color: black;
+.LiensFooter:hover {
+    text-decoration: underline;
     width: fit-content;
     cursor: pointer;
 }
@@ -735,13 +718,11 @@ header > div:first-child {
 .LiensAutresSites {
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .LiensAutresSites:hover {
-    border: 2px solid white;
-    padding:5px;
-    background-color: #b9b9dd;
-    color: black;
+    text-decoration: underline;
+    width: fit-content;
     cursor: pointer;
 }
