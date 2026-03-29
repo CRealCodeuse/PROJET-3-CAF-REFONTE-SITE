@@ -4,6 +4,7 @@
 
 *{
     font-family: 'Poppins', sans-serif; /* Police et style d'écriture */
+    font-size: 18px;
 }
 
 body { 
@@ -12,8 +13,7 @@ body {
 
 a {
     text-decoration: none; /* Supprime le soulignement des liens */
-    color: #141455; /* Couleur des liens */
-    text-decoration: underline;
+    color: black; /* Couleur des liens */
 }
 
 @media (max-width:480px) {
