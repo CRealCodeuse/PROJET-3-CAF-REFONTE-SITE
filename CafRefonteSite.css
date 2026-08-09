@@ -742,7 +742,7 @@ header > div:first-child {
         margin-top: 0;
         margin-bottom: 0;
         text-align: center;
-        padding: 15px;
+        padding: 5px;
         width:90%;
     }
 }
@@ -843,7 +843,7 @@ header > div:first-child {
     width: 250px; /* Largeur maximale */
     cursor: pointer; /* Change le curseur au survol */
     box-sizing: border-box; /* Inclut padding et border dans la width */
-    transition: background-color 0.3s ease; /* Transition douce */
+    transition: background-color 0.2s ease; /* Transition douce */
 
 }
 
