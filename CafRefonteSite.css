@@ -297,7 +297,6 @@ header > div:first-child {
     border: none;
     background-color: #141455;
     color: white;
-    
     font-size: 18px;
     cursor: pointer;
 }
@@ -440,8 +439,8 @@ header > div:first-child {
 @media (max-width:480px) {
     .PopUpConnexion {
         background:scroll ;
-        top: -35;
-        width: 330px;
+        top: -30;
+        width: 375px;
         margin: 10px;
         justify-content: center;
     }
@@ -716,17 +715,26 @@ header > div:first-child {
     
 }
 
+@media (max-width:480px) {
+    .InfoGrandTitre {
+        text-align: center;
+            /* Centre le texte */
+            width: 95%;
+            /* Prend toute la largeur */
+            border-radius: 20px;
+            /* Bords arrondis */
+            padding: 15px;
+            margin-top: 0;
+            margin-bottom: 0;
+    }
+}
+
 .InfoPetitTitre { 
     margin: 10px;
     background-color: #141455;
     color: white;
     padding: 5px;
     font-size: 20px;   
-}
-
-.TexteInformation {
-    font-size: 18px;
-    color: #000;
 }
 
 @media (max-width:480px) {
@@ -738,6 +746,13 @@ header > div:first-child {
         width:90%;
     }
 }
+
+.TexteInformation {
+    font-size: 18px;
+    color: #000;
+}
+
+
 
 .imageInformation {
     padding-top: 5px;
@@ -1158,11 +1173,7 @@ header > div:first-child {
 
 .ImageHandicap:hover {
     background-color: #e3e3f1; /* Couleur de fond au survol */
-    border: #141455 3px solid;
-}
-
-.ImageAccident {
-    background-color: #2fc96f; /* Couleur de fond */
+    border: #141455 ; /* Couleur de fond */
     border: #141455 3px solid;
     transition: background-color 0.3s ease; /* Transition douce */
 }
