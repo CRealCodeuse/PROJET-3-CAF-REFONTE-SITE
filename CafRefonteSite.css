@@ -338,14 +338,14 @@ header > div:first-child {
     text-decoration: none;
     color: #141455;
     padding: 10px 15px;
-    transition: all 0.3s;
+    transition: all 0.2s;
     white-space: nowrap; /* Empêche le retour à la ligne */
     font-size: 18px;
 }
 
 .LiensNavigation a:hover {
-    color: #000;
-    background-color: rgba(20, 20, 85, 0.1);
+    color: white;
+    background-color: rgba(20, 20, 85, 0.89);
 }
 
 .LiensNavigation img {
