@@ -1173,7 +1173,12 @@ header > div:first-child {
 
 .ImageHandicap:hover {
     background-color: #e3e3f1; /* Couleur de fond au survol */
-    border: #141455 ; /* Couleur de fond */
+    border: #141455 3px solid; /* Couleur de fond */
+    transition: background-color 0.3s ease; /* Transition douce */
+}
+
+.ImageAccident {
+    background-color: #aaa; /* Couleur de fond */
     border: #141455 3px solid;
     transition: background-color 0.3s ease; /* Transition douce */
 }
